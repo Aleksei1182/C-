@@ -1,0 +1,15 @@
+E:\Документы\ПАПА\Обучение\Путь IT\3 урок. Язык С# (СиШарп)\Лекции\Examples\Example001A\bin\Debug\net6.0\Example001A.exe
+E:\Документы\ПАПА\Обучение\Путь IT\3 урок. Язык С# (СиШарп)\Лекции\Examples\Example001A\bin\Debug\net6.0\Example001A.deps.json
+E:\Документы\ПАПА\Обучение\Путь IT\3 урок. Язык С# (СиШарп)\Лекции\Examples\Example001A\bin\Debug\net6.0\Example001A.runtimeconfig.json
+E:\Документы\ПАПА\Обучение\Путь IT\3 урок. Язык С# (СиШарп)\Лекции\Examples\Example001A\bin\Debug\net6.0\Example001A.dll
+E:\Документы\ПАПА\Обучение\Путь IT\3 урок. Язык С# (СиШарп)\Лекции\Examples\Example001A\bin\Debug\net6.0\Example001A.pdb
+E:\Документы\ПАПА\Обучение\Путь IT\3 урок. Язык С# (СиШарп)\Лекции\Examples\Example001A\obj\Debug\net6.0\Example001A.csproj.AssemblyReference.cache
+E:\Документы\ПАПА\Обучение\Путь IT\3 урок. Язык С# (СиШарп)\Лекции\Examples\Example001A\obj\Debug\net6.0\Example001A.GeneratedMSBuildEditorConfig.editorconfig
+E:\Документы\ПАПА\Обучение\Путь IT\3 урок. Язык С# (СиШарп)\Лекции\Examples\Example001A\obj\Debug\net6.0\Example001A.AssemblyInfoInputs.cache
+E:\Документы\ПАПА\Обучение\Путь IT\3 урок. Язык С# (СиШарп)\Лекции\Examples\Example001A\obj\Debug\net6.0\Example001A.AssemblyInfo.cs
+E:\Документы\ПАПА\Обучение\Путь IT\3 урок. Язык С# (СиШарп)\Лекции\Examples\Example001A\obj\Debug\net6.0\Example001A.csproj.CoreCompileInputs.cache
+E:\Документы\ПАПА\Обучение\Путь IT\3 урок. Язык С# (СиШарп)\Лекции\Examples\Example001A\obj\Debug\net6.0\Example001A.dll
+E:\Документы\ПАПА\Обучение\Путь IT\3 урок. Язык С# (СиШарп)\Лекции\Examples\Example001A\obj\Debug\net6.0\refint\Example001A.dll
+E:\Документы\ПАПА\Обучение\Путь IT\3 урок. Язык С# (СиШарп)\Лекции\Examples\Example001A\obj\Debug\net6.0\Example001A.pdb
+E:\Документы\ПАПА\Обучение\Путь IT\3 урок. Язык С# (СиШарп)\Лекции\Examples\Example001A\obj\Debug\net6.0\Example001A.genruntimeconfig.cache
+E:\Документы\ПАПА\Обучение\Путь IT\3 урок. Язык С# (СиШарп)\Лекции\Examples\Example001A\obj\Debug\net6.0\ref\Example001A.dll
