@@ -3,7 +3,7 @@
 void FillArray(int[] arr, int len)                 //Имя функции, возвращаемое значение, параметры
 //void - пустое значение. Означает что функция ничего не возвращает.
 {
-for (int i =0; i<len; i++)
+for (int i = 0; i < len; i++)
 {
     arr[i] = new Random(). Next(1, 11);
     Console.Write(arr[i] + ", ");
@@ -18,7 +18,7 @@ int[] array = new int[N];
 
 FillArray(array, N); // Вместо ниже написанного вставляем функцию и определяем её параметры "FillArray"
 
-/*for (int i =0; i<N; i++)
+/*for (int i =0; i < N; i++)
 {
     array[i] = new Random(). Next(1, 11);
     Console.Write(array[i] + ", ");
