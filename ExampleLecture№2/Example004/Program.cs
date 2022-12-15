@@ -1,4 +1,4 @@
-﻿void FillArray(int[] collection);
+﻿void FillArray(int[] collection)
 {
     int length = collection.Length;
     int index = 0;
@@ -9,7 +9,7 @@
     }
 }
 
-void PrintArray(int[] col);
+void PrintArray(int[] col)
 {
 
     int count = col.Length;
