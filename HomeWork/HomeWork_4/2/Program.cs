@@ -20,8 +20,14 @@ for (int i = 0; i < count; i++)
 }
 
 int SumOfDivisors = 0;
-for (int i = 0; i < count; i++)
+int j = 0;
+while (j < count)
 {
-    if (N % digitsOfNumber[i] == 0) SumOfDivisors = SumOfDivisors + digitsOfNumber[i];
+    if (digitsOfNumber[j] == 0) j++;
+    if (N % digitsOfNumber[j] == 0)
+    {
+        SumOfDivisors = SumOfDivisors + digitsOfNumber[j];
+        j++;
+    }
 }
 Console.WriteLine(SumOfDivisors);
