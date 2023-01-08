@@ -49,8 +49,6 @@ void PrintArrayMeanArithmeticPalindromes(int[,] arr) // метод находи�
 {
     double[]ArrayMeanArithmeticPalindromes = new double[arr.GetLength(1)]; 
 
-    int k = 0;
-
     for (int i = 0; i < arr.GetLength(1); i++)
     {
         double SumPalindromesInColumn = 0;
@@ -65,16 +63,8 @@ void PrintArrayMeanArithmeticPalindromes(int[,] arr) // метод находи�
                 count++;
             }
         }
-        if(count == 0) 
-        {
-            ArrayMeanArithmeticPalindromes[k] = 0;
-            k++;
-        }
-        else
-        {
-        ArrayMeanArithmeticPalindromes[k] = SumPalindromesInColumn / count;
-        k++;
-        }
+        if(count == 0) ArrayMeanArithmeticPalindromes[i] = 0;
+        else ArrayMeanArithmeticPalindromes[i] = SumPalindromesInColumn / count;
     }
     Console.WriteLine();
     PrintArray(ArrayMeanArithmeticPalindromes);
