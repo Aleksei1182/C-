@@ -33,29 +33,21 @@ void PrintArray (int[,] arr) // метод выводит на печать дв
 }
 
 
-void PrintingProductOfTwoMatrices(int[,] arr) //данный метод находит и печатает в двумерном массиве произведение двух массивов
+void PrintingProductOfTwoMatrices(int[,] arr1, int[,] arr2) //данный метод находит и печатает в двумерном массиве произведение двух массивов
 {
-    int rowCount = 3;
-    int columnCount = 3;
-    int[,] array1 = new int [rowCount, columnCount];
-    int[,] array2 = new int [rowCount, columnCount];
-    FillArray (array1);
-    FillArray (array2);
-    PrintArray (array1);
-    PrintArray (array2);
-    int[,] ArrayProductOfTwoMatrices = new int [rowCount, columnCount];
-    for (int i = 0; i < arr.GetLength(0); i++)
+    int[,] ArrayProductOfTwoMatrices = new int [arr1.GetLength(0), arr2.GetLength(1)];
+    for (int i = 0; i < arr1.GetLength(0); i++)
     {
-        for (int j = 0; j < arr.GetLength(1); j++)
+        for (int j = 0; j < arr2.GetLength(1); j++)
         {
             int ProductOfTwoMatrices = 0;
             
-            for (int k = 0; k < arr.GetLength(1); k++)
+            for (int k = 0; k < arr2.GetLength(1); k++)
             {
-                ProductOfTwoMatrices = ProductOfTwoMatrices + array1[i,rowCount -1 - k] * array2[rowCount -1 - k,j];
+                ProductOfTwoMatrices = ProductOfTwoMatrices + arr1[i,arr2.GetLength(1) -1 - k] * arr2[arr1.GetLength(0) -1 - k,j];
             }
             ArrayProductOfTwoMatrices[i,j] = ProductOfTwoMatrices;          
-            
+            //то что ниже это я для анализа создавал перемножения матрицы - жалко стирать пока оставил
           /*ProductOfTwoMatrices[0,0] = array1[0,0] * array2[0,0] + array1[0,1] * array2[1,0]   + array1[0,2] * array2[2,0];
             ProductOfTwoMatrices[0,1] = array1[0,0] * array2[0,1] + array1[0,1] * array2[1,1]   + array1[0,2] * array2[2,1];
             ProductOfTwoMatrices[0,2] = array1[0,0] * array2[0,2] + array1[0,1] * array2[1,2]   + array1[0,2] * array2[2,2];
@@ -73,8 +65,14 @@ void PrintingProductOfTwoMatrices(int[,] arr) //данный метод нахо
 }
 
 
-int rowCount = 3;
-int columnCount = 3;
-int[,] array = new int [rowCount, columnCount];
-
-PrintingProductOfTwoMatrices(array);
+int rowCount = 4;
+int columnCount = rowCount;
+int[,] array1 = new int [rowCount, columnCount];
+int[,] array2 = new int [rowCount, columnCount];
+FillArray (array1);
+FillArray (array2);
+PrintArray (array1);
+Console.WriteLine();
+PrintArray (array2);
+Console.WriteLine();
+PrintingProductOfTwoMatrices(array1,array2);
