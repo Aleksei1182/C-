@@ -1,6 +1,6 @@
 ﻿// Программа, которая принимает на вход число (N) и помещает в массив таблицу кубов чисел от 1 до N. Полученный массив выводится на экран.
 
-void CubeTableArray(int[] arr, int len)
+void CubeTableArray(int[] arr)
 {
 for (int i = 0; i < arr.Length; i++)
 {
@@ -16,7 +16,7 @@ int N = Convert.ToInt32(Console.ReadLine());
 
 int[] array = new int[N];
 
-CubeTableArray(array, N);
+CubeTableArray(array);
 
 
 /*for (int i = 0; i < N; i++)
